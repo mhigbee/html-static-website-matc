@@ -6,6 +6,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+p {
+  font-size: 18px;
+}
+
 a:visited {
   color: inherit;
 }
@@ -21,7 +25,14 @@ a:visited {
 
 .site-container {
   margin: 0 auto;
-  width: 1170px;
+  width: 85%;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Header */
@@ -77,9 +88,93 @@ nav a {
   overflow: auto;
 }
 
+.hero-section .flex-column {
+  height: 600px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .hero-section h1 {
-  text-align: center;
   margin-top: 150px;
   font-size: 45px;
   color: white;
 }
+
+.hero-section p {
+  color: white;
+}
+
+.hero-button-container {
+  margin-bottom: 100px;
+}
+
+.hero-section i {
+  margin-right: 20px;
+}
+
+
+.telephone-button {
+  color: white;
+  padding: 20px 40px;
+  background-color: #5dc560;
+  border-radius: 20px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.telephone-button:hover {
+  background-color: white;
+  color: #5dc560;
+  border: solid 3px #5dc560;
+}
+
+.second-section-homepage {
+  height: 400px;
+  color: white;
+}
+
+.second-section-homepage h2{
+  font-size: 40px;
+}
+
+.second-section-homepage div {
+  display: flex;
+}
+
+.second-section-homepage p {
+  margin: 0 20px;
+  font-size: 24px;
+}
+
+.second-section-homepage a {
+  margin: 20px;
+  text-decoration: none;
+  padding: 20px;
+  border: solid 3px white;
+  border-radius: 20px;
+  color: white;
+}
+
+footer section {
+  display: flex;
+  justify-content: center;
+}
+.footer-left, .footer-middle, .footer-right {
+  flex-basis: 33%;
+}
+
+.footer-middle {
+  padding: 20px;
+}
+
+.copyright {
+  display: block;
+  text-align: center;
+  padding: 20px;
+}
+
